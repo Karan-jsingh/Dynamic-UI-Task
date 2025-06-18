@@ -1,0 +1,3962 @@
+{
+    "type": 1,
+    "target": "dynamiclist2_Result",
+    "arguments": [
+        {
+            "return_status": 0,
+            "jsonresp": {
+                "fields": [
+                    {
+                        "rpsField": "ACK_AFTER_PRINT",
+                        "dataField": "AckAfterPrint",
+                        "title": "Auto Acknowledge after print",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "ACK_EML",
+                        "dataField": "AckEml",
+                        "title": "Auto acknowledge after email reply",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "ACK_FWD",
+                        "dataField": "AckFwd",
+                        "title": "Auto acknowledge after forwarding",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "ACK_READ",
+                        "dataField": "AckRead",
+                        "title": "Auto acknowledge after reading",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "ACTIVEX_ON",
+                        "dataField": "ActivexOn",
+                        "title": "ActiveX Lists On",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "ALIAS_EMAIL_ID",
+                        "dataField": "AliasEmailId",
+                        "title": "Email Alias ID",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "ALL_DEPTS",
+                        "dataField": "AllDepts",
+                        "title": "Access All Depts",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "N",
+                                "value": "No"
+                            },
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "ALT_TILES_BY_DEFAULT",
+                        "dataField": "AltTilesByDefault",
+                        "title": "Default Alt Tiles",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "ANALYSIS$$_CRM",
+                        "dataField": "AnalysisIDCrm",
+                        "title": "CRM Sales Report Default",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "APPLICATION_SIZE",
+                        "dataField": "ApplicationSize",
+                        "title": "Application Size",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "System Default"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Maximised"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Restricted"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "APPROVAL_MAX",
+                        "dataField": "ApprovalMax",
+                        "title": "Chq/Cst App Max",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "APPROVAL_MAX_PI",
+                        "dataField": "ApprovalMaxPi",
+                        "title": "PI Cost App Max",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "APPROVAL_NOTIFY",
+                        "dataField": "ApprovalNotify",
+                        "title": "PI Approval Notify",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Every Time"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Once a Day"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Never"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "ARCHIVE_USER",
+                        "dataField": "ArchiveUser",
+                        "title": "Archive User",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "ATT_SUB_DIRECTORY",
+                        "dataField": "AttSubDirectory",
+                        "title": "Att Sub Directory",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "AUTO_LOGIN",
+                        "dataField": "AutoLogin",
+                        "title": "Auto Login",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "No"
+                            },
+                            {
+                                "key": 1,
+                                "value": "All"
+                            },
+                            {
+                                "key": 2,
+                                "value": "GUI"
+                            },
+                            {
+                                "key": 3,
+                                "value": "Cell"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "AUTO_LOGIN_TYPE",
+                        "dataField": "AutoLoginType",
+                        "title": "Auto Login",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Full"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Partial"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "AUTO_UPDATE_USER_NOTE",
+                        "dataField": "AutoUpdateUserNote",
+                        "title": "Auto Update User Note",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "AVAILABLE_FOR_MESSAG",
+                        "dataField": "AvailableForMessag",
+                        "title": "Available For Message",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "BCC_ALIAS_EMAIL_ID",
+                        "dataField": "BccAliasEmailId",
+                        "title": "Bcc Email Alias ID",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "BCC_SELF",
+                        "dataField": "BccSelf",
+                        "title": "Bcc to self",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "CHPROG_FCL_CLIENT",
+                        "dataField": "ChprogFclClient",
+                        "title": "CHPROG FCL CLIENT",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "CHRISTIAN_NAME",
+                        "dataField": "ChristianName",
+                        "title": "First Name",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "CLIENT$$_FCLASP",
+                        "dataField": "ClientIDFclasp",
+                        "title": "FCL-ASP Client",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "CLIENT$$_USER",
+                        "dataField": "ClientIDUser",
+                        "title": "Client",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "CLIENT_ACCESS",
+                        "dataField": "ClientAccess",
+                        "title": "Client Access",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Full Access"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Local Office"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Sales Area"
+                            },
+                            {
+                                "key": 3,
+                                "value": "Allocated"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "CLI_CONT3$$",
+                        "dataField": "CliCont3ID",
+                        "title": "Contact",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "COMPANY$$",
+                        "dataField": "CompanyID",
+                        "title": "Specific.Company",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "COMPANY$$_DEFAULT",
+                        "dataField": "CompanyIDDefault",
+                        "title": "Default Company",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "COMPONENT_ID$$",
+                        "dataField": "ComponentUID",
+                        "title": "Component ID",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "COMPONENT_TYPE",
+                        "dataField": "ComponentType",
+                        "title": "Component Type",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Default"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Hub"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Classic"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "CREDIT_NOTE_APP_MAX",
+                        "dataField": "CreditNoteAppMax",
+                        "title": "Credit App Max",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "CRM_ALL_CLIENTS",
+                        "dataField": "CrmAllClients",
+                        "title": "CRM All Clients",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "CUSTOMS_SIGNATORY_YN",
+                        "dataField": "CustomsSignatoryYn",
+                        "title": "Customs Signatory",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "DATE_FORMAT_FLAG",
+                        "dataField": "DateFormatFlag",
+                        "title": "Date Format",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "DD-MMM-YYYY"
+                            },
+                            {
+                                "key": 1,
+                                "value": "DD/MM/YYYY"
+                            },
+                            {
+                                "key": 2,
+                                "value": "MM/DD/YYYY"
+                            },
+                            {
+                                "key": 3,
+                                "value": "YYYY/MM/DD"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "DATE_OF_BIRTH",
+                        "dataField": "DateOfBirth",
+                        "title": "Date of Birth",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "DATE_OF_BIRTH_D8",
+                        "dataField": "DateOfBirthD8",
+                        "title": "Date of Birth",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "DEFAULT_APP_COLS",
+                        "dataField": "DefaultAppCols",
+                        "title": "GUI-Def App Cols",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "DEFAULT_APP_COLS_CELL",
+                        "dataField": "DefaultAppColsCell",
+                        "title": "Cell-Def App Cols",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "DEFAULT_APP_ROWS",
+                        "dataField": "DefaultAppRows",
+                        "title": "GUI-Def App Rows",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "DEFAULT_APP_ROWS_CELL",
+                        "dataField": "DefaultAppRowsCell",
+                        "title": "Cell-Def App Rows",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "DEPARTMENT$$",
+                        "dataField": "DepartmentID",
+                        "title": "Default.Department",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "DEPARTMENT$$_CHPROG",
+                        "dataField": "DepartmentIDChprog",
+                        "title": "Department",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "DEPARTMENT$$_DASHBOARD_FILTER",
+                        "dataField": "DepartmentIDDashboardFilter",
+                        "title": "Dashboard Filter Dept",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "DEPOT$$",
+                        "dataField": "DepotID",
+                        "title": "Stock Depot",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "DIRECT_DIAL",
+                        "dataField": "DirectDial",
+                        "title": "Direct Tel. No.",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "DISABLE_HUB_FUNCTIONS",
+                        "dataField": "DisableHubFunctions",
+                        "title": "????????????",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "DISABLE_LOGIN",
+                        "dataField": "DisableLogin",
+                        "title": "Disable Login",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "N/A"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Disabled"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Single Login"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "DISABLE_PASSWORD_CHANGE",
+                        "dataField": "DisablePasswordChange",
+                        "title": "Disable Password Change",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "No"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "DIVERT_ATT_ADDR",
+                        "dataField": "DivertAttAddr",
+                        "title": "Att Email Addr",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "DIVERT_ATT_ID",
+                        "dataField": "DivertAttId",
+                        "title": "Att Email Id",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "DIVERT_INCOMING_MESS",
+                        "dataField": "DivertIncomingMess",
+                        "title": "Divert Incoming Messages To (OD)",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "D",
+                                "value": "D"
+                            },
+                            {
+                                "key": "O",
+                                "value": "O"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "E2E_ACTIVE_CHAIN",
+                        "dataField": "E2eActiveChain",
+                        "title": "e2e Active",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "E2E_FINANCE_VIEW",
+                        "dataField": "E2eFinanceView",
+                        "title": "e2e Finance View",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Local"
+                            },
+                            {
+                                "key": 1,
+                                "value": "End to End"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "E2E_JOB_VIEW",
+                        "dataField": "E2eJobView",
+                        "title": "e2e Job View",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Local/Related"
+                            },
+                            {
+                                "key": 1,
+                                "value": "All"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "E2E_OPSWB_MODIFY",
+                        "dataField": "E2eOpswbModify",
+                        "title": "e2e OPSWB Job Modify",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Local"
+                            },
+                            {
+                                "key": 1,
+                                "value": "End to End"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "EMAIL_HEADER",
+                        "dataField": "EmailHeader",
+                        "title": "Email Headers Off",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "EMAIL_TYPE",
+                        "dataField": "EmailType",
+                        "title": "Global Email Type",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "FCL"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Outlook"
+                            },
+                            {
+                                "key": 2,
+                                "value": "IMAP"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "EML_REP_SAVE",
+                        "dataField": "EmlRepSave",
+                        "title": "Always Save Email Reply",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "N",
+                                "value": "Never"
+                            },
+                            {
+                                "key": "O",
+                                "value": "Optional"
+                            },
+                            {
+                                "key": "T",
+                                "value": "Temporary"
+                            },
+                            {
+                                "key": "P",
+                                "value": "Permanent"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "EXTENSION$$_DEFAULT",
+                        "dataField": "ExtensionIDDefault",
+                        "title": "Extension",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "EXT_EMAIL_DIVERT",
+                        "dataField": "ExtEmailDivert",
+                        "title": "Ext. Email Divert",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "EXT_EMAIL_DIVERT_SHORT",
+                        "dataField": "ExtEmailDivertShort",
+                        "title": "Ext. Email Divert",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "E_MAIL_ADDRESS",
+                        "dataField": "EMailAddress",
+                        "title": "e-Mail Domain",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "E_MAIL_ID",
+                        "dataField": "EMailId",
+                        "title": "e-Mail Addr",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "E_MAIL_REFERENCE",
+                        "dataField": "EMailReference",
+                        "title": "E Mail Reference",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "FAILED_LOGINS",
+                        "dataField": "FailedLogins",
+                        "title": "Login Attempts",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "FAX_TYPE",
+                        "dataField": "FaxType",
+                        "title": "Global Fax Type",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "FCL"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Zeta Fax"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "FCL_INT_COUNT_1",
+                        "dataField": "FclIntCount1",
+                        "title": "FCL Internal Count",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "FCL_INT_COUNT_2",
+                        "dataField": "FclIntCount2",
+                        "title": "FCL Internal Count",
+                        "dataType": "number",
+                        "decimalPlaces": 2
+                    },
+                    {
+                        "rpsField": "FINISH_DATE",
+                        "dataField": "FinishDate",
+                        "title": "Finish Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "FIRST_NAME",
+                        "dataField": "FirstName",
+                        "title": "First Name",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "FULLY_RETIRED",
+                        "dataField": "FullyRetired",
+                        "title": "Fully Retired",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "GP_MAXIMUM",
+                        "dataField": "GpMaximum",
+                        "title": "GP Maximum",
+                        "dataType": "number",
+                        "decimalPlaces": 2
+                    },
+                    {
+                        "rpsField": "GP_MINIMUM",
+                        "dataField": "GpMinimum",
+                        "title": "GP Minimum",
+                        "dataType": "number",
+                        "decimalPlaces": 2
+                    },
+                    {
+                        "rpsField": "GUI_APP_SIZE_REVERT",
+                        "dataField": "GuiAppSizeRevert",
+                        "title": "GUI-Revert",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "N/A"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Revert"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "HUBTHEME",
+                        "dataField": "Hubtheme",
+                        "title": "Hub Theme",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "HUB_INSTANCE_MODE",
+                        "dataField": "HubInstanceMode",
+                        "title": "Instance Mode",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Focus"
+                            },
+                            {
+                                "key": 1,
+                                "value": "New"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "HUB_LIST_LAYOUT",
+                        "dataField": "HubListLayout",
+                        "title": "List Layout",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Horizontal"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Vertical"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Tabbed"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "HUB_TRIAL_MODE",
+                        "dataField": "HubTrialMode",
+                        "title": "Hub Beta Enabled",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "JOB_TITLE",
+                        "dataField": "JobTitle",
+                        "title": "Job Title",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LAST_APPROVAL_DATE",
+                        "dataField": "LastApprovalDate",
+                        "title": "Last Approval Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LAST_NAME",
+                        "dataField": "LastName",
+                        "title": "Surname",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LAST_TIP_NUMBER",
+                        "dataField": "LastTipNumber",
+                        "title": "Last Tip Number",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$DATETIME",
+                        "dataField": "LockDatetime",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOCK$DATETIME_ALPHA",
+                        "dataField": "LockDatetimeAlpha",
+                        "title": "Date/Time",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_ALPHA",
+                        "dataField": "LockDateAlpha",
+                        "title": "Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_ALPHA_CCYY",
+                        "dataField": "LockDateAlphaCcyy",
+                        "title": "Year",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_ALPHA_DD",
+                        "dataField": "LockDateAlphaDd",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_ALPHA_MM",
+                        "dataField": "LockDateAlphaMm",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_CCYY",
+                        "dataField": "LockDateCcyy",
+                        "title": "Year",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_DD",
+                        "dataField": "LockDateDd",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_MM",
+                        "dataField": "LockDateMm",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$DATE_NUMERIC",
+                        "dataField": "LockDateNumeric",
+                        "title": "Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_6",
+                        "dataField": "LockTime6",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_ALPHA",
+                        "dataField": "LockTimeAlpha",
+                        "title": "Time",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_ALPHA_A6",
+                        "dataField": "LockTimeAlphaA6",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_ALPHA_HH",
+                        "dataField": "LockTimeAlphaHh",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_ALPHA_MM",
+                        "dataField": "LockTimeAlphaMm",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_ALPHA_SS",
+                        "dataField": "LockTimeAlphaSs",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_HH",
+                        "dataField": "LockTimeHh",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_MM",
+                        "dataField": "LockTimeMm",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_NUMERIC",
+                        "dataField": "LockTimeNumeric",
+                        "title": "Time",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_NUMERIC_D6",
+                        "dataField": "LockTimeNumericD6",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOCK$TIME_SS",
+                        "dataField": "LockTimeSs",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATETIME",
+                        "dataField": "LoginDatetime",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATETIME_ALPHA",
+                        "dataField": "LoginDatetimeAlpha",
+                        "title": "Date/Time",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_ALPHA",
+                        "dataField": "LoginDateAlpha",
+                        "title": "Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_ALPHA_CCYY",
+                        "dataField": "LoginDateAlphaCcyy",
+                        "title": "Year",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_ALPHA_DD",
+                        "dataField": "LoginDateAlphaDd",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_ALPHA_MM",
+                        "dataField": "LoginDateAlphaMm",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_CCYY",
+                        "dataField": "LoginDateCcyy",
+                        "title": "Year",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_DD",
+                        "dataField": "LoginDateDd",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_MM",
+                        "dataField": "LoginDateMm",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$DATE_NUMERIC",
+                        "dataField": "LoginDateNumeric",
+                        "title": "Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_6",
+                        "dataField": "LoginTime6",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_ALPHA",
+                        "dataField": "LoginTimeAlpha",
+                        "title": "Time",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_ALPHA_A6",
+                        "dataField": "LoginTimeAlphaA6",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_ALPHA_HH",
+                        "dataField": "LoginTimeAlphaHh",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_ALPHA_MM",
+                        "dataField": "LoginTimeAlphaMm",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_ALPHA_SS",
+                        "dataField": "LoginTimeAlphaSs",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_HH",
+                        "dataField": "LoginTimeHh",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_MM",
+                        "dataField": "LoginTimeMm",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_NUMERIC",
+                        "dataField": "LoginTimeNumeric",
+                        "title": "Time",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_NUMERIC_D6",
+                        "dataField": "LoginTimeNumericD6",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "LOGIN$TIME_SS",
+                        "dataField": "LoginTimeSs",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MAILBOX_ACTIVE",
+                        "dataField": "MailboxActive",
+                        "title": "Unix E-Mail Active",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "N",
+                                "value": "No"
+                            },
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "MAIL_DIVERT_ACTIVATE",
+                        "dataField": "MailDivertActivate",
+                        "title": "Mail Divert Activated",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "N",
+                                "value": "No"
+                            },
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "MENU_PRIVILEGE",
+                        "dataField": "MenuPrivilege",
+                        "title": "Spec. Menu Priv.",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "N",
+                                "value": "No"
+                            },
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "MENU_TYPE",
+                        "dataField": "MenuType",
+                        "title": "Menu Type",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Default"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Hub"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Classic"
+                            },
+                            {
+                                "key": 3,
+                                "value": "Old"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "MFA$DATETIME",
+                        "dataField": "MfaDatetime",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "MFA$DATETIME_ALPHA",
+                        "dataField": "MfaDatetimeAlpha",
+                        "title": "Date/Time",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_ALPHA",
+                        "dataField": "MfaDateAlpha",
+                        "title": "Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_ALPHA_CCYY",
+                        "dataField": "MfaDateAlphaCcyy",
+                        "title": "Year",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_ALPHA_DD",
+                        "dataField": "MfaDateAlphaDd",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_ALPHA_MM",
+                        "dataField": "MfaDateAlphaMm",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_CCYY",
+                        "dataField": "MfaDateCcyy",
+                        "title": "Year",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_DD",
+                        "dataField": "MfaDateDd",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_MM",
+                        "dataField": "MfaDateMm",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA$DATE_NUMERIC",
+                        "dataField": "MfaDateNumeric",
+                        "title": "Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_6",
+                        "dataField": "MfaTime6",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_ALPHA",
+                        "dataField": "MfaTimeAlpha",
+                        "title": "Time",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_ALPHA_A6",
+                        "dataField": "MfaTimeAlphaA6",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_ALPHA_HH",
+                        "dataField": "MfaTimeAlphaHh",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_ALPHA_MM",
+                        "dataField": "MfaTimeAlphaMm",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_ALPHA_SS",
+                        "dataField": "MfaTimeAlphaSs",
+                        "title": "",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_HH",
+                        "dataField": "MfaTimeHh",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_MM",
+                        "dataField": "MfaTimeMm",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_NUMERIC",
+                        "dataField": "MfaTimeNumeric",
+                        "title": "Time",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_NUMERIC_D6",
+                        "dataField": "MfaTimeNumericD6",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA$TIME_SS",
+                        "dataField": "MfaTimeSs",
+                        "title": "",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "MFA_SECURITY_CODE",
+                        "dataField": "MfaSecurityCode",
+                        "title": "MFA Sec Code",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "MONITORING_ENABLED",
+                        "dataField": "MonitoringEnabled",
+                        "title": "Monitoring Enabled",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "N",
+                                "value": "No"
+                            },
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "MULTIPLE_SESSIONS",
+                        "dataField": "MultipleSessions",
+                        "title": "Mult. Sessions",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "NEW_BIZ_TARGET_CURR",
+                        "dataField": "NewBizTargetCurr",
+                        "title": "New Target (Curr)",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "NEW_BIZ_TARGET_PRIOR",
+                        "dataField": "NewBizTargetPrior",
+                        "title": "New Target (Prior)",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "OFFICE$$",
+                        "dataField": "OfficeID",
+                        "title": "Default Office",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "OPSREF$$",
+                        "dataField": "OpsrefID",
+                        "title": "Ops. Ref",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "OVERRIDE_INCOMING",
+                        "dataField": "OverrideIncoming",
+                        "title": "Override Incoming Messages",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "PENDING_ONLY",
+                        "dataField": "PendingOnly",
+                        "title": "Show pending messages only",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "PERMIT_FCLASP_LOGIN",
+                        "dataField": "PermitFclaspLogin",
+                        "title": "Permit Login",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 1,
+                                "value": "Yes"
+                            },
+                            {
+                                "key": 0,
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "PRIV_GROUP$$",
+                        "dataField": "PrivGroupID",
+                        "title": "Priv.Group",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "PROFILE$$",
+                        "dataField": "ProfileID",
+                        "title": "Allocated CRM Profile",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "READ_NEWOLD",
+                        "dataField": "ReadNewold",
+                        "title": "Read Newest/Oldest First",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "N",
+                                "value": "Newest"
+                            },
+                            {
+                                "key": "O",
+                                "value": "Oldest"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "REASON_FOR_DIVERT",
+                        "dataField": "ReasonForDivert",
+                        "title": "Reason For Divert",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "RECORD_STATUS",
+                        "dataField": "RecordStatus",
+                        "title": "Record Status",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "RETAINED_BIZ_TARGET_CURR",
+                        "dataField": "RetainedBizTargetCurr",
+                        "title": "Retained Target (Curr)",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "RETAINED_BIZ_TARGET_PRIOR",
+                        "dataField": "RetainedBizTargetPrior",
+                        "title": "Retained Target (Prior)",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "RETIREMENT_DATE",
+                        "dataField": "RetirementDate",
+                        "title": "Retirement Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "SCREEN_SIZE",
+                        "dataField": "ScreenSize",
+                        "title": "HHT Screen Size (Width x Depth)",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Default"
+                            },
+                            {
+                                "key": 1,
+                                "value": "20x20"
+                            },
+                            {
+                                "key": 2,
+                                "value": "25x20"
+                            },
+                            {
+                                "key": 3,
+                                "value": "29x19"
+                            },
+                            {
+                                "key": 4,
+                                "value": "40x17"
+                            },
+                            {
+                                "key": 5,
+                                "value": "33x18"
+                            },
+                            {
+                                "key": 6,
+                                "value": "32x19"
+                            },
+                            {
+                                "key": 7,
+                                "value": "Bespoke"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "SEA_PORT_ID",
+                        "dataField": "SeaPortId",
+                        "title": "Sea Port Id",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "SHARE_COMMS_MESSAGES",
+                        "dataField": "ShareCommsMessages",
+                        "title": "Share Comms messages",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "SHOW_SHORTCUT_IN_TILE",
+                        "dataField": "ShowShortcutInTile",
+                        "title": "Show Shortcut in Tile",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "SHOW_TIPS_AT_STARTUP",
+                        "dataField": "ShowTipsAtStartup",
+                        "title": "Show Tips At Startup",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "SHOW_USER_PRIV",
+                        "dataField": "ShowUserPriv",
+                        "title": "Show User Privs",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "SPOOL_FAX_TYPE",
+                        "dataField": "SpoolFaxType",
+                        "title": "Spool Fax Type",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "FCL"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Zeta Fax"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "START_DATE",
+                        "dataField": "StartDate",
+                        "title": "Start Date",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "STKLOC$$",
+                        "dataField": "StklocID",
+                        "title": "Stock Locn",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "STKPTY$$",
+                        "dataField": "StkptyID",
+                        "title": "Stk.Party",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "STOP",
+                        "dataField": "Stop",
+                        "title": "Stop Comms Messages",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "SUPPRESS_PASS_AUTO_CHANGE",
+                        "dataField": "SuppressPassAutoChange",
+                        "title": "Suppress Password Change",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "No"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Yes"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "SUPPRESS_SENT_MSG_OPTIONS",
+                        "dataField": "SuppressSentMsgOptions",
+                        "title": "Suppress Sent Msg Dialog",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "SUPRESS_CHEV",
+                        "dataField": "SupressChev",
+                        "title": "Suppress chevrons on email reply",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "SUP_WINDOWS_APP_MSG",
+                        "dataField": "SupWindowsAppMsg",
+                        "title": "Suppress Windows App Message",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "SURNAME",
+                        "dataField": "Surname",
+                        "title": "Surname",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "SWITCH_WIDE",
+                        "dataField": "SwitchWide",
+                        "title": "Auto switch for wide messages",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "TEL_EXTENSION",
+                        "dataField": "TelExtension",
+                        "title": "Tel.Extension",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "TICK_BYTE",
+                        "dataField": "TickByte",
+                        "title": "*",
+                        "dataType": "boolean",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "'"
+                            },
+                            {
+                                "key": 1,
+                                "value": "*"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "TITLE",
+                        "dataField": "Title",
+                        "title": "Title",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "TRAD_CLIENT_RECALL",
+                        "dataField": "TradClientRecall",
+                        "title": "Traditional Client Recall",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "TRN_DRIVER$$",
+                        "dataField": "TrnDriverID",
+                        "title": "Driver",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "UNACTION_DIARY_RECS",
+                        "dataField": "UnactionDiaryRecs",
+                        "title": "Unaction DIARY Recs",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "UNDOCK_COSTS_VIEW",
+                        "dataField": "UndockCostsView",
+                        "title": "Un-Dock Costs View",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "UPDATE$DATETIME",
+                        "dataField": "UpdateDatetime",
+                        "title": "Update Date and Time",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "UPDATE$DATE_ALPHA",
+                        "dataField": "UpdateDateAlpha",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "UPDATE$TIME_NUMERIC",
+                        "dataField": "UpdateTimeNumeric",
+                        "title": "",
+                        "dataType": "date"
+                    },
+                    {
+                        "rpsField": "UPDATE$USER$$",
+                        "dataField": "UpdateUserID",
+                        "title": "Update User",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$",
+                        "dataField": "UserID",
+                        "title": "User ID",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_CUSIGN",
+                        "dataField": "UserIDCusign",
+                        "title": "User ID",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_DIVERT_1",
+                        "dataField": "UserIDDivert1",
+                        "title": "User 1",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_DIVERT_2",
+                        "dataField": "UserIDDivert2",
+                        "title": "User 2",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_DIVERT_3",
+                        "dataField": "UserIDDivert3",
+                        "title": "User 3",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_DIVERT_4",
+                        "dataField": "UserIDDivert4",
+                        "title": "User 4",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_DIVERT_ARRAY",
+                        "dataField": "UserIDDivertArray",
+                        "title": "Redirect mail to user 1-4",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_LAST_UPD",
+                        "dataField": "UserIDLastUpd",
+                        "title": "User ID",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_OLD",
+                        "dataField": "UserIDOld",
+                        "title": "Retired User Code",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER$$_RETIREDBY",
+                        "dataField": "UserIDRetiredby",
+                        "title": "Retired By User",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USERTYPE$$",
+                        "dataField": "UsertypeID",
+                        "title": "User Type",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER_ACTIVE",
+                        "dataField": "UserActive",
+                        "title": "Active User",
+                        "dataType": "text",
+                        "items": [
+                            {
+                                "key": "Y",
+                                "value": "Yes"
+                            },
+                            {
+                                "key": "N",
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "USER_FIND",
+                        "dataField": "UserFind",
+                        "title": "User Identity Code",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER_ID_STATUS",
+                        "dataField": "UserIdStatus",
+                        "title": "ID Status",
+                        "dataType": "number",
+                        "items": [
+                            {
+                                "key": 0,
+                                "value": "Active"
+                            },
+                            {
+                                "key": 1,
+                                "value": "Retiring"
+                            },
+                            {
+                                "key": 2,
+                                "value": "Retired"
+                            }
+                        ]
+                    },
+                    {
+                        "rpsField": "USER_NAME_OVERLAY",
+                        "dataField": "UserNameOverlay",
+                        "title": "Contact",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER_NOTE",
+                        "dataField": "UserNote",
+                        "title": "User Note",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USER_PREFERENCES_OV",
+                        "dataField": "UserPreferencesOv",
+                        "title": "User Preferences",
+                        "dataType": "boolean"
+                    },
+                    {
+                        "rpsField": "USER_SHORT_NAME",
+                        "dataField": "UserShortName",
+                        "title": "User Short Name",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USRMNU_ID$$",
+                        "dataField": "UsrmnuUID",
+                        "title": "GUI Menu Group",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "USROPT$$",
+                        "dataField": "UsroptID",
+                        "title": "User Group",
+                        "dataType": "number"
+                    },
+                    {
+                        "rpsField": "WINDOWS_USER_NAME",
+                        "dataField": "WindowsUserName",
+                        "title": "Windows User Name",
+                        "dataType": "text"
+                    },
+                    {
+                        "rpsField": "WINDOWS_USER_NAME_1_20",
+                        "dataField": "WindowsUserName120",
+                        "title": "Windows User Name",
+                        "dataType": "text"
+                    }
+                ],
+                "title": "System Users",
+                "className": "SubSystemUsers",
+                "structureName": "SYSUSR_REC",
+                "allowedPageSizes": [
+                    10,
+                    20,
+                    50,
+                    100
+                ],
+                "filterEnabled": true,
+                "pageSize": 20,
+                "form": {
+                    "title": "Windows User Name",
+                    "mode": "popup",
+                    "allowUpdating": true,
+                    "allowDeleting": true,
+                    "allowAdding": true,
+                    "customLayout": [
+                        {
+                            "windowName": "I_USER1",
+                            "title": "Header",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 14
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "USER_ID_STATUS",
+                                    "dataField": "UserIdStatus",
+                                    "title": "ID Status",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 55
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 65
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "RETIREMENT_DATE",
+                                    "dataField": "RetirementDate",
+                                    "title": "Retired",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 3,
+                                        "y": 55
+                                    },
+                                    "inputPos": {
+                                        "x": 3,
+                                        "y": 65
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "LOGIN$DATETIME",
+                                    "dataField": "LoginDatetime",
+                                    "title": "Login.Date",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 81
+                                    },
+                                    "inputPos": {
+                                        "x": 3,
+                                        "y": 81
+                                    },
+                                    "maxChars": 14,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "TITLE",
+                                    "dataField": "Title",
+                                    "title": "User Name",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 4,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 4,
+                                        "y": 14
+                                    },
+                                    "maxChars": 4,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "CHRISTIAN_NAME",
+                                    "dataField": "ChristianName",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 4,
+                                        "y": 19
+                                    },
+                                    "maxChars": 11,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SURNAME",
+                                    "dataField": "Surname",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 4,
+                                        "y": 31
+                                    },
+                                    "maxChars": 20,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "USER$$_RETIREDBY",
+                                    "dataField": "UserIDRetiredby",
+                                    "title": "By",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 4,
+                                        "y": 55
+                                    },
+                                    "inputPos": {
+                                        "x": 4,
+                                        "y": 65
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "USER_SHORT_NAME",
+                                    "dataField": "UserShortName",
+                                    "title": "Shrt name",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 14
+                                    },
+                                    "maxChars": 31,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "WINDOWS_USER_NAME",
+                                    "dataField": "WindowsUserName",
+                                    "title": "Win.Usr",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 14
+                                    },
+                                    "maxChars": 64,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "ALIAS_EMAIL_ID",
+                                    "dataField": "AliasEmailId",
+                                    "title": "Alias",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 14
+                                    },
+                                    "maxChars": 30,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "JOB_TITLE",
+                                    "dataField": "JobTitle",
+                                    "title": "Job Title",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 15
+                                    },
+                                    "maxChars": 20,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DATE_OF_BIRTH",
+                                    "dataField": "DateOfBirth",
+                                    "title": "Date of Birth",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 36
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 52
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "MENU_PRIVILEGE",
+                                    "dataField": "MenuPrivilege",
+                                    "title": "Spec.Priv.",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 15
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "OFFICE$$",
+                                    "dataField": "OfficeID",
+                                    "title": "Default Office",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 36
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 52
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "USRMNU_ID$$",
+                                    "dataField": "UsrmnuUID",
+                                    "title": "Menu Group",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 13,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 15
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "MULTIPLE_SESSIONS",
+                                    "dataField": "MultipleSessions",
+                                    "title": "Mult. Sessions",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 13,
+                                        "y": 36
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 52
+                                    },
+                                    "maxChars": 2,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "PRIV_GROUP$$",
+                                    "dataField": "PrivGroupID",
+                                    "title": "Priv.Group",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 14,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 14,
+                                        "y": 15
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "AUTO_LOGIN",
+                                    "dataField": "AutoLogin",
+                                    "title": "Auto Login",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 14,
+                                        "y": 36
+                                    },
+                                    "inputPos": {
+                                        "x": 14,
+                                        "y": 52
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "AUTO_LOGIN_TYPE",
+                                    "dataField": "AutoLoginType",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 14,
+                                        "y": 62
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "CLIENT$$_USER",
+                                    "dataField": "ClientIDUser",
+                                    "title": "Client",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 15,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 15,
+                                        "y": 15
+                                    },
+                                    "maxChars": 6,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "MENU_TYPE",
+                                    "dataField": "MenuType",
+                                    "title": "Menu Type",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 15,
+                                        "y": 36
+                                    },
+                                    "inputPos": {
+                                        "x": 15,
+                                        "y": 52
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "COMPONENT_TYPE",
+                                    "dataField": "ComponentType",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 15,
+                                        "y": 62
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER2",
+                            "title": "Other.1",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "USERTYPE$$",
+                                    "dataField": "UsertypeID",
+                                    "title": "User Type",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 23
+                                    },
+                                    "maxChars": 2,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DISABLE_LOGIN",
+                                    "dataField": "DisableLogin",
+                                    "title": "Disable Login",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 50
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 65
+                                    },
+                                    "maxChars": 12,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "USER_ACTIVE",
+                                    "dataField": "UserActive",
+                                    "title": "Active User",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 6,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 23
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "CUSTOMS_SIGNATORY_YN",
+                                    "dataField": "CustomsSignatoryYn",
+                                    "title": "Customs Signatory",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 23
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "ARCHIVE_USER",
+                                    "dataField": "ArchiveUser",
+                                    "title": "Archive User",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 52
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 50
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "MONITORING_ENABLED",
+                                    "dataField": "MonitoringEnabled",
+                                    "title": "Monitoring Enabled",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 23
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SHOW_USER_PRIV",
+                                    "dataField": "ShowUserPriv",
+                                    "title": "Show User Privs",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 52
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 50
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DEPOT$$",
+                                    "dataField": "DepotID",
+                                    "title": "Stock Depot",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 23
+                                    },
+                                    "maxChars": 6,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SHARE_COMMS_MESSAGES",
+                                    "dataField": "ShareCommsMessages",
+                                    "title": "Share Comms messages",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 52
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 50
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "STKPTY$$",
+                                    "dataField": "StkptyID",
+                                    "title": "Stock Party",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 23
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "STOP",
+                                    "dataField": "Stop",
+                                    "title": "Stop Comms Messages",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 52
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 50
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "STKLOC$$",
+                                    "dataField": "StklocID",
+                                    "title": "Stock Locn",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 23
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DIRECT_DIAL",
+                                    "dataField": "DirectDial",
+                                    "title": "Direct Tel. No.",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 23
+                                    },
+                                    "maxChars": 20,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "START_DATE",
+                                    "dataField": "StartDate",
+                                    "title": "Start Date",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 52
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 64
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "TEL_EXTENSION",
+                                    "dataField": "TelExtension",
+                                    "title": "Tel.Extension",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 13,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 23
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "FINISH_DATE",
+                                    "dataField": "FinishDate",
+                                    "title": "Finish Date",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 13,
+                                        "y": 52
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 64
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER3",
+                            "title": "Comp.Dept",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "COMPANY$$",
+                                    "dataField": "CompanyID",
+                                    "title": "Specific.Company",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 23
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "COMPANY$$_DEFAULT",
+                                    "dataField": "CompanyIDDefault",
+                                    "title": "Default Company",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 40
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 57
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DEPARTMENT$$",
+                                    "dataField": "DepartmentID",
+                                    "title": "Default.Department",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 23
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "ALL_DEPTS",
+                                    "dataField": "AllDepts",
+                                    "title": "Access All Depts",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 40
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 57
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER4",
+                            "title": "HHT.DB",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "DEPARTMENT$$_DASHBOARD_FILTER",
+                                    "dataField": "DepartmentIDDashboardFilter",
+                                    "title": "Dashboard Filter Dept",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 65
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SCREEN_SIZE",
+                                    "dataField": "ScreenSize",
+                                    "title": "HHT Screen Size (Width x Depth)",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 4
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SCREEN_SIZE_FDI",
+                                    "dataField": "",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 4
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "APPLICATION_SIZE",
+                                    "dataField": "ApplicationSize",
+                                    "title": "Application Size",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 60
+                                    },
+                                    "maxChars": 15,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "OPSREF$$",
+                                    "dataField": "OpsrefID",
+                                    "title": "Current Master Ref",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 23
+                                    },
+                                    "maxChars": 11,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "DEFAULT_APP_COLS",
+                                    "dataField": "DefaultAppCols",
+                                    "title": "GUI-Def App Cols",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 60
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DEFAULT_APP_ROWS",
+                                    "dataField": "DefaultAppRows",
+                                    "title": "GUI-Def App Rows",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 60
+                                    },
+                                    "maxChars": 2,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SUPPRESS_PASS_AUTO_CHANGE",
+                                    "dataField": "SuppressPassAutoChange",
+                                    "title": "Suppress Password Change",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 29
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "GUI_APP_SIZE_REVERT",
+                                    "dataField": "GuiAppSizeRevert",
+                                    "title": "GUI-Revert",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 60
+                                    },
+                                    "maxChars": 6,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DEFAULT_APP_COLS_CELL",
+                                    "dataField": "DefaultAppColsCell",
+                                    "title": "Cell-Def App Cols",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 60
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "APPROVAL_NOTIFY",
+                                    "dataField": "ApprovalNotify",
+                                    "title": "PI Approval Notify",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 23
+                                    },
+                                    "maxChars": 12,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DEFAULT_APP_ROWS_CELL",
+                                    "dataField": "DefaultAppRowsCell",
+                                    "title": "Cell-Def App Rows",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 60
+                                    },
+                                    "maxChars": 2,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER_PREF",
+                            "title": "Preferences",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "USER_PREFERENCES_OV",
+                                    "dataField": "UserPreferencesOv",
+                                    "title": "User Preferences",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "EMAIL_TYPE",
+                                    "dataField": "EmailType",
+                                    "title": "Global Email Type",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 60
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "ACTIVEX_ON",
+                                    "dataField": "ActivexOn",
+                                    "title": "ActiveX Lists On",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 6,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SUP_WINDOWS_APP_MSG",
+                                    "dataField": "SupWindowsAppMsg",
+                                    "title": "Suppress Windows App Message",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SHOW_TIPS_AT_STARTUP",
+                                    "dataField": "ShowTipsAtStartup",
+                                    "title": "Show Tips At Startup",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "EMAIL_HEADER",
+                                    "dataField": "EmailHeader",
+                                    "title": "Email Headers Off",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "TRAD_CLIENT_RECALL",
+                                    "dataField": "TradClientRecall",
+                                    "title": "Traditional Client Recall",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "BCC_ALIAS_EMAIL_ID",
+                                    "dataField": "BccAliasEmailId",
+                                    "title": "Bcc Email Alias ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 42
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 42
+                                    },
+                                    "maxChars": 30,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "BCC_SELF",
+                                    "dataField": "BccSelf",
+                                    "title": "Bcc to self",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "UNDOCK_COSTS_VIEW",
+                                    "dataField": "UndockCostsView",
+                                    "title": "Un-Dock Costs View",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SUPPRESS_SENT_MSG_OPTIONS",
+                                    "dataField": "SuppressSentMsgOptions",
+                                    "title": "Suppress Sent Msg Dialog",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 13,
+                                        "y": 8
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 6
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER_ASP",
+                            "title": "FCL-ASP.API",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 18
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "CLIENT$$_FCLASP",
+                                    "dataField": "ClientIDFclasp",
+                                    "title": "ASP Client",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 4,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 4,
+                                        "y": 18
+                                    },
+                                    "maxChars": 6,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "CLIENT$$_FCLASP_FDI",
+                                    "dataField": "",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 4,
+                                        "y": 32
+                                    },
+                                    "maxChars": 35,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "CLI_CONT3$$",
+                                    "dataField": "CliCont3ID",
+                                    "title": "Contact",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 6,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 18
+                                    },
+                                    "maxChars": 2,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "E_MAIL_ID",
+                                    "dataField": "EMailId",
+                                    "title": "e-Mail Addr",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 18
+                                    },
+                                    "maxChars": 40,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "E_MAIL_ADDRESS",
+                                    "dataField": "EMailAddress",
+                                    "title": "e-Mail Domain",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 18
+                                    },
+                                    "maxChars": 60,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DATE_FORMAT_FLAG",
+                                    "dataField": "DateFormatFlag",
+                                    "title": "Date Format",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 18
+                                    },
+                                    "maxChars": 12,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "PERMIT_FCLASP_LOGIN",
+                                    "dataField": "PermitFclaspLogin",
+                                    "title": "Permit Login",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 18
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "LOCK$DATE_ALPHA",
+                                    "dataField": "LockDateAlpha",
+                                    "title": "Locked.Date",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 18
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "LOCK$TIME_NUMERIC",
+                                    "dataField": "LockTimeNumeric",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 32
+                                    },
+                                    "maxChars": 5,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "DISABLE_PASSWORD_CHANGE",
+                                    "dataField": "DisablePasswordChange",
+                                    "title": "Dis.Pass.Chg",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 18
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "MFA$DATE_ALPHA",
+                                    "dataField": "MfaDateAlpha",
+                                    "title": "Last.MFA.Date",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 13,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 18
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "MFA$TIME_NUMERIC",
+                                    "dataField": "MfaTimeNumeric",
+                                    "title": "",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 32
+                                    },
+                                    "maxChars": 5,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "MFA_SECURITY_CODE",
+                                    "dataField": "MfaSecurityCode",
+                                    "title": "MFA Sec Code",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 14,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 14,
+                                        "y": 18
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER_APPROVE",
+                            "title": "Approve",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "APPROVAL_MAX",
+                                    "dataField": "ApprovalMax",
+                                    "title": "Chq/Cst App Max",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 20
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "NEW_BIZ_TARGET_CURR",
+                                    "dataField": "NewBizTargetCurr",
+                                    "title": "New Target (Curr)",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 40
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 65
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "APPROVAL_MAX_PI",
+                                    "dataField": "ApprovalMaxPi",
+                                    "title": "PI Cost App Max",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 6,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 20
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "RETAINED_BIZ_TARGET_CURR",
+                                    "dataField": "RetainedBizTargetCurr",
+                                    "title": "Retained Target (Curr)",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 6,
+                                        "y": 40
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 65
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "CREDIT_NOTE_APP_MAX",
+                                    "dataField": "CreditNoteAppMax",
+                                    "title": "Credit App Max",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 20
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "GP_MINIMUM",
+                                    "dataField": "GpMinimum",
+                                    "title": "GP Minimum",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 20
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "NEW_BIZ_TARGET_PRIOR",
+                                    "dataField": "NewBizTargetPrior",
+                                    "title": "New Target (Prior)",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 40
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 65
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "GP_MAXIMUM",
+                                    "dataField": "GpMaximum",
+                                    "title": "GP Maximum",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 20
+                                    },
+                                    "maxChars": 7,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "RETAINED_BIZ_TARGET_PRIOR",
+                                    "dataField": "RetainedBizTargetPrior",
+                                    "title": "Retained Target (Prior)",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 40
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 65
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER_HUB",
+                            "title": "Hub",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "TEL_EXTENSION",
+                                    "dataField": "TelExtension",
+                                    "title": "Tel.Extension",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 20
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "HUBTHEME",
+                                    "dataField": "Hubtheme",
+                                    "title": "Hub Theme",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 20
+                                    },
+                                    "maxChars": 20,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "SHOW_SHORTCUT_IN_TILE",
+                                    "dataField": "ShowShortcutInTile",
+                                    "title": "Show Shortcut in Tile",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 6
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 4
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "HUB_TRIAL_MODE",
+                                    "dataField": "HubTrialMode",
+                                    "title": "Hub Beta Enabled",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 6
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 4
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "HUB_INSTANCE_MODE",
+                                    "dataField": "HubInstanceMode",
+                                    "title": "Instance Mode",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 10,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 10,
+                                        "y": 20
+                                    },
+                                    "maxChars": 5,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "HUB_LIST_LAYOUT",
+                                    "dataField": "HubListLayout",
+                                    "title": "List Layout",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 20
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER_OTH2",
+                            "title": "Other.2",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "ANALYSIS$$_CRM",
+                                    "dataField": "AnalysisIDCrm",
+                                    "title": "CRM Sales Report Default",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 29
+                                    },
+                                    "maxChars": 8,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "AUTO_UPDATE_USER_NOTE",
+                                    "dataField": "AutoUpdateUserNote",
+                                    "title": "Auto Update User Note",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 62
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 60
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "PROFILE$$",
+                                    "dataField": "ProfileID",
+                                    "title": "Allocated CRM Profile",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 6,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 29
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "TRN_DRIVER$$",
+                                    "dataField": "TrnDriverID",
+                                    "title": "Driver",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 29
+                                    },
+                                    "maxChars": 5,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "CRM_ALL_CLIENTS",
+                                    "dataField": "CrmAllClients",
+                                    "title": "CRM All Clients",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 9,
+                                        "y": 6
+                                    },
+                                    "inputPos": {
+                                        "x": 9,
+                                        "y": 4
+                                    },
+                                    "maxChars": 1,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "ATT_SUB_DIRECTORY",
+                                    "dataField": "AttSubDirectory",
+                                    "title": "Attach Loc.",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 11,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 11,
+                                        "y": 23
+                                    },
+                                    "maxChars": 30,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DIVERT_ATT_ID",
+                                    "dataField": "DivertAttId",
+                                    "title": "Att e-Mail ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 12,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 12,
+                                        "y": 23
+                                    },
+                                    "maxChars": 30,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "DIVERT_ATT_ADDR",
+                                    "dataField": "DivertAttAddr",
+                                    "title": "Att e-Mail Domain",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 13,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 13,
+                                        "y": 23
+                                    },
+                                    "maxChars": 50,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "USER_NOTE",
+                                    "dataField": "UserNote",
+                                    "title": "User Note",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 15,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 15,
+                                        "y": 23
+                                    },
+                                    "maxChars": 40,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "windowName": "I_USER_VIS",
+                            "title": "Visibility",
+                            "columnCount": "4",
+                            "fields": [
+                                {
+                                    "rpsField": "USER$$",
+                                    "dataField": "UserID",
+                                    "title": "User ID",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 2,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 2,
+                                        "y": 20
+                                    },
+                                    "maxChars": 3,
+                                    "enabled": false
+                                },
+                                {
+                                    "rpsField": "CLIENT_ACCESS",
+                                    "dataField": "ClientAccess",
+                                    "title": "Client Access",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 5,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 5,
+                                        "y": 25
+                                    },
+                                    "maxChars": 12,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "E2E_FINANCE_VIEW",
+                                    "dataField": "E2eFinanceView",
+                                    "title": "e2e Finance View",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 6,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 6,
+                                        "y": 25
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "E2E_JOB_VIEW",
+                                    "dataField": "E2eJobView",
+                                    "title": "e2e Job View",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 7,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 7,
+                                        "y": 25
+                                    },
+                                    "maxChars": 13,
+                                    "enabled": true
+                                },
+                                {
+                                    "rpsField": "E2E_OPSWB_MODIFY",
+                                    "dataField": "E2eOpswbModify",
+                                    "title": "e2e OPSWB Job Modify",
+                                    "dataType": "text",
+                                    "labelPos": {
+                                        "x": 8,
+                                        "y": 4
+                                    },
+                                    "inputPos": {
+                                        "x": 8,
+                                        "y": 25
+                                    },
+                                    "maxChars": 10,
+                                    "enabled": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "listWindowName": "L_USER",
+                "orderby": "UserID",
+                "filter": "UserIdStatusEnumKey eq 0 and ClientIDFCLAsp eq '' ",
+                "columns": [
+                    {
+                        "sequence": "1",
+                        "rpsField": "TICK_BYTE",
+                        "dataField": "TickByte",
+                        "maxChars": 1,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "2",
+                        "rpsField": "USER$$",
+                        "dataField": "UserID",
+                        "title": "User",
+                        "maxChars": 3,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "3",
+                        "rpsField": "TITLE",
+                        "dataField": "Title",
+                        "maxChars": 4,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "4",
+                        "rpsField": "CHRISTIAN_NAME",
+                        "dataField": "ChristianName",
+                        "title": "First.Name",
+                        "maxChars": 11,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "5",
+                        "rpsField": "SURNAME",
+                        "dataField": "Surname",
+                        "title": "Last.Name",
+                        "maxChars": 20,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "6",
+                        "rpsField": "OFFICE$$",
+                        "dataField": "OfficeID",
+                        "title": "Office",
+                        "maxChars": 3,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "7",
+                        "rpsField": "DEPARTMENT$$",
+                        "dataField": "DepartmentID",
+                        "title": "Dept",
+                        "maxChars": 3,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "8",
+                        "rpsField": "PRIV_GROUP$$",
+                        "dataField": "PrivGroupID",
+                        "title": "Priv.Grp",
+                        "maxChars": 3,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "9",
+                        "rpsField": "USRMNU_ID$$",
+                        "dataField": "UsrmnuUID",
+                        "title": "Menu.Grp",
+                        "maxChars": 10,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "10",
+                        "rpsField": "START_DATE",
+                        "dataField": "StartDate",
+                        "title": "Start.Date",
+                        "maxChars": 8,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "11",
+                        "rpsField": "FINISH_DATE",
+                        "dataField": "FinishDate",
+                        "title": "Finish.Date",
+                        "maxChars": 8,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "12",
+                        "rpsField": "CLIENT$$_FCLASP",
+                        "dataField": "ClientIDFclasp",
+                        "title": "FCL-ASP",
+                        "maxChars": 6,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "13",
+                        "rpsField": "CLIENT$$_FCLASP_FDI",
+                        "dataField": "",
+                        "title": "Client Name",
+                        "maxChars": 15,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "14",
+                        "rpsField": "LOGIN$DATETIME",
+                        "dataField": "LoginDatetime",
+                        "title": "Login.Date",
+                        "maxChars": 14,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "15",
+                        "rpsField": "LOCK$DATE_ALPHA",
+                        "dataField": "LockDateAlpha",
+                        "title": "Locked.Date",
+                        "maxChars": 8,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "16",
+                        "rpsField": "USERTYPE$$",
+                        "dataField": "UsertypeID",
+                        "maxChars": 2,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "17",
+                        "rpsField": "WINDOWS_USER_NAME",
+                        "dataField": "WindowsUserName",
+                        "maxChars": 64,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "18",
+                        "rpsField": "USER_SHORT_NAME",
+                        "dataField": "UserShortName",
+                        "maxChars": 31,
+                        "width": "auto",
+                        "visible": true
+                    },
+                    {
+                        "sequence": "19",
+                        "rpsField": "CLIENT_ACCESS",
+                        "dataField": "ClientAccess",
+                        "maxChars": 12,
+                        "width": "auto",
+                        "visible": true
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+.table-container {
+    margin: 16px;
+    overflow-x: auto;
+  }
+  
+  .toggle-container {
+    padding: 12px 0;
+  }
+  
+  .form-container {
+    padding: 16px;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  

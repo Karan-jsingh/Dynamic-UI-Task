@@ -1,59 +1,84 @@
-# DynamicUi
+# Dynamic UI Angular App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+This project dynamically generates a tabbed user interface from JSON configuration. It includes a list view and multiple form views across tabs, with user data stored in session storage. Designed for professional-level structure, testability, and modularity.
 
-## Development server
+# Features
 
-To start a local development server, run:
+-  Dynamic tabset based on JSON schema
+-  Tab 1: User list in a table
+-  Tab 2+: Editable forms per user
+-  Save data to `sessionStorage`
+-  Toggle to show/hide empty fields
+-  Unit tests included for key services and components
+-  Modular structure using services and models
+
+
+#  Prerequisites
+
+- **Node.js** (LTS recommended): [Download](https://nodejs.org/)
+- **Angular CLI**: Install via  
+  ```bash
+  npm install -g @angular/cli
+  ```
+- **Recommended Node Version**: Even-numbered LTS version (e.g. `v20.x.x`)
+- **Package Manager**: `npm` (comes with Node.js)
+
+
+# Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone <your-repo-url>
+   cd dynamic-ui
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Mock Data**
+   Ensure your `assets` folder contains:
+   - `user-schema.json`: Defines form layout and table columns
+   - `mock-users.json`: Example user list data
+
+
+#  Run the Application
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then navigate to:  
+`http://localhost:4200/`
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+#  Run Tests
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+This will open a browser running Karma test runner.
 
-For end-to-end (e2e) testing, run:
+# Styling
 
-```bash
-ng e2e
-```
+The app uses clean SCSS styles with a modern UI feel. Material styling is **not** required — buttons, inputs, and layout are all styled using CSS classes.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+# What's Included
 
-## Additional Resources
+- Angular standalone components
+- JSON-driven schema parsing
+- Session storage persistence
+- Table interaction (select row → populate form)
+- Toggle for hiding/showing empty fields
+- `user.service.spec.ts` and `user-manager.component.spec.ts` with 15+ unit tests
+- Fully modular and scalable architecture
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+#  Notes
+
+- This app is designed for frontend-only operation (no backend required).
+- Switching out the `user-schema.json` or `mock-users.json` lets you reuse the UI with different form layouts or data.
+
+

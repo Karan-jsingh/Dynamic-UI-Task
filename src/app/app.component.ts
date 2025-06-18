@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { UserManagerComponent } from './features/user-manager/user-manager.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  standalone: true,
+  imports: [UserManagerComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'dynamic-ui';
-}
+export class AppComponent {}
