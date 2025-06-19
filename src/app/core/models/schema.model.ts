@@ -5,8 +5,11 @@ export interface ColumnDefinition {
   
   export interface FieldDefinition {
     fieldName: string;
-    label: string;
-    type: string;
+    label?: string;
+    type?: string;
+    labelpos?: { x: number; y: number };
+    inputpos?: { x: number; y: number };
+    showLabel?: boolean; 
   }
   
   export interface FormTab {

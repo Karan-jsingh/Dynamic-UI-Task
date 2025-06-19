@@ -26,6 +26,9 @@ export class SchemaService {
             fieldName: f.dataField,
             label: f.title || f.dataField,
             type: f.dataType || 'text',
+            labelpos: f.labelPos,
+            inputpos: f.inputPos,
+            showLabel: !(f.labelPos?.x === 0 && f.labelPos?.y === 0),
           })),
         }));
 
