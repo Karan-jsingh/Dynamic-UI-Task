@@ -10,9 +10,13 @@ export interface ColumnDefinition {
     labelpos?: { x: number; y: number };
     inputpos?: { x: number; y: number };
     showLabel?: boolean; 
+    maxChars?: number;          
+    enabled?: boolean;
   }
   
   export interface FormTab {
+    formHeight: number;
+    formWidth: number;
     title: string;
     fields: FieldDefinition[];
   }

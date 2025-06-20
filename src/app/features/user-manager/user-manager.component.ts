@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { SchemaService } from '../../core/services/schema.service';
 import { UserService } from '../../core/services/user.service';
 import { FormSchema, FormTab } from '../../core/models/schema.model';
@@ -29,7 +29,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatButtonModule
   ]
 })
-export class UserManagerComponent implements OnInit {
+export class UserManagerComponent implements OnInit, AfterViewInit {
   schema!: FormSchema;
   formGroups: FormGroup[] = [];
   displayedColumns: string[] = [];
@@ -37,6 +37,10 @@ export class UserManagerComponent implements OnInit {
   selectedUserIndex: number | null = null;
   activeTabIndex = 0;
   showEmptyFields = false;
+
+  @ViewChild('formContainer', { static: false }) formContainer!: ElementRef;
+  xMultiplier = 10;
+  yMultiplier = 20;
 
   constructor(
     private schemaService: SchemaService,
@@ -50,18 +54,63 @@ export class UserManagerComponent implements OnInit {
         this.displayedColumns = schema.listColumns.map((col) => col.columnName);
         this.formGroups = schema.formTabs.map((tab: FormTab) => {
           const group: Record<string, FormControl> = {};
-          tab.fields.forEach((field) => {
-            group[field.fieldName] = new FormControl('');
+          tab.fields.forEach(field => {
+            group[field.fieldName] = this.createControlFromField(field);
           });
           return new FormGroup(group);
         });
+
         this.userService.load().subscribe(users => {
           this.userService.setAll(users);
           this.userList = users;
         });
       },
-      error: (err: any) => console.error('Failed to load schema:', err)
+      error: err => console.error('Failed to load schema:', err)
     });
+  }
+
+  getControl(i: number, fieldName: string): FormControl {
+    return this.formGroups[i].get(fieldName) as FormControl;
+  }
+
+  private createControlFromField(field: any): FormControl {
+    const validators = [];
+    const isDisabled = field.enabled === false;
+    if (typeof field.maxChars === 'number') {
+      validators.push(Validators.maxLength(field.maxChars));
+    }
+
+    return new FormControl({ value: '', disabled: isDisabled }, validators);
+  }
+
+  enforceMaxChars(event: KeyboardEvent, field: any): void {
+    const input = event.target as HTMLInputElement;
+    const maxChars = field?.maxChars;
+
+    if (typeof maxChars !== 'number') return;
+
+    const currentLength = input.value.length;
+    const selectionLength = input.selectionEnd! - input.selectionStart!;
+    const allowedKeys = ['Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', 'Tab'];
+
+    if (
+      currentLength - selectionLength >= maxChars &&
+      !allowedKeys.includes(event.key)
+    ) {
+      event.preventDefault();
+    }
+  }
+
+  ngAfterViewInit(): void {
+    setTimeout(() => {
+      if (this.formContainer?.nativeElement) {
+        const container = this.formContainer.nativeElement as HTMLElement;
+        const width = container.offsetWidth;
+        const height = container.offsetHeight;
+        this.xMultiplier = width / 132;
+        this.yMultiplier = height / 37;
+      }
+    }, 0);
   }
 
   onRowSelect(user: User): void {

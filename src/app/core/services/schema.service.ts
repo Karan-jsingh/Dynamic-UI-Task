@@ -29,6 +29,8 @@ export class SchemaService {
             labelpos: f.labelPos,
             inputpos: f.inputPos,
             showLabel: !(f.labelPos?.x === 0 && f.labelPos?.y === 0),
+            maxChars: f.maxChars,
+            enabled: f.enabled !== false,
           })),
         }));
 
